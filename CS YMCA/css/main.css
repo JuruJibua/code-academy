@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*main-section*/
+.main-section{
+    background-color: transparent;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/*first-navbar*/
+.first{
+   min-height: 100vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,0,0)),url("src=../images/Background1.jpg");
+}
+
+/*navigation styles*/
+.first-nav{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0)),url(../images/Background3.jpg);
+    border-radius: 7px;
+    height: 4.5vh;
+    max-width: 700px;
+    margin: auto;
+    padding: auto;
+}
+
+.first-nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px;
+}
+
+.first-nav nav{
+    display: flex;
+}
+nav a{
+    padding: 0 5px;
+}
+
+/*navbar-links*/
+.first-nav a{
+    color: #fff;
+}
+.first-nav a:hover{
+    color: royalblue;
+    transition: 1s;
+}
+
+/*ymca-link*/
+.ymca-link{
+    padding-top: 50px;
+}
+.ymca-link a{
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 8px;
+    color: #fff;
+    background-color: royalblue;
+}
+.ymca-link a:hover{
+    color: royalblue;
+    background-color: transparent;
+    transition: 1s;
+}
+
+/*intro-text*/
+.intro-text{
+    text-align: center;
+    padding-top: 30vh;
+}
+.intro-text h2{
+    padding-bottom: 10px;
+}
+.intro-text p{
+    color: rgba(0,0,0,0.5);
+}
+
+/*middle-text*/
+.middle-text{
+    text-align: center;
+    padding: 20px 4px;
+    font-family: florence, cursive;
+}
+.middle-text h3{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+/*footer*/
+.footer{
+    text-align: center;
+    height: 18vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+.footer h3 a{
+    color: #fff;
+    padding: 10px;
+}
+.footer h3 a:hover{
+    color: royalblue;
+    transition: 1s;
+}
+.footer-links ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+}
+.footer-links a{
+    justify-content: space-around;
+    padding: 8px;
+    color: royalblue;
+}
+.footer-links a:hover{
+    color: #fff;
+    transition: 1s;
+}
+/*copyright*/
+.copy{
+    padding-top: 40px;
+    font-style: italic;
+}
+
+
+/*utilities*/
+/*links*/
+a:link{
+    text-decoration: none;
+    color: auto;
+}
+
+/*lists*/
+ul,ol{
+    list-style-type: none;
+}
+
+/*author page styles*/
+.mainbar{
+    background-image: linear-gradient(rgba(3,4,7,0.5),rgba(3,4,7,0.2)),url(../images/Background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+/*links*/
+.navlinks-2{
+    max-width: 900px;
+    margin: auto;
+    padding: auto;
+}
+.navlinks-2{
+    display: flex;
+    justify-content: space-between;
+}
+.navlinks-2 h2{
+    padding: 10px 0;
+}
+.navlinks-2 h2 a{
+    color: #fff;
+}
+.navlinks-2 h2 a:hover{
+    color: #f00;
+    transition: 1s;
+}
+.navlinks-2 nav ul{
+    display: flex;
+    padding: 20px 0;
+}
+.navlinks-2 nav a{
+    display: block;
+    color: #fff;
+    padding: 0 7px;
+}
+.navlinks-2 nav a:hover{
+    color: royalblue;
+    transition: 1s;
+}
+
+/*about*/
+.about{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+.about h2{
+    font-weight: lighter;
+}
+.about p{
+    padding: 10px;
+    color: rgba(255,255,255,0.4);
+}
+.link{
+    padding-top: 20px;
+}
+.link a{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block;
+}
+.link a:hover{
+    border: 1px solid royalblue;
+    background-color: transparent;
+    color: royalblue;
+    transition: 1s;
+}
+
+/*middle text*/
+.details{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.details img{
+    width: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    outline: 2px solid royalblue;
+    outline-offset: 2px;
+}
+.main-text{
+    padding: 20px;
+}
